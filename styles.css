@@ -1,0 +1,61 @@
+/* CSS for styping the personal web page */
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  width: 100%;
+  bottom: 0;
+}
+
+/* List styling */
+ul {
+  list-style: none;
+  padding-left: 20px;
+  padding: 5px 0;
+}
+
+li {
+  padding: 5px 0;
+}
+
+/* Link styling */
+a {
+  color: #08490a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}

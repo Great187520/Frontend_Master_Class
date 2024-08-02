@@ -1,0 +1,79 @@
+/* complex-layout.css */
+
+/* Basic body styling */
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: #333;
+  background-color: #fafafa;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* CSS grid container */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar styling */
+.sidebar {
+  grid-column: 1/2;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+}
+
+.sidebar a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* content styling */
+.content {
+  grid-column: 2/3;
+  padding: 20px;
+}
+
+/* Advertisment styling */
+.advertisement {
+  grid-column: 3/4;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
